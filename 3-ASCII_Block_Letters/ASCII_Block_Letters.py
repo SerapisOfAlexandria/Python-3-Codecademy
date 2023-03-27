@@ -1,28 +1,29 @@
+#This program prints your nickname in ASCII block letters
 
-S = """
+s = """
  SSSS
 S    
   SSS
      S
 SSSS 
 """
-T = """
+t = """
 TTTTTTTT
    T
    T
    T
    T
 """
-A = """
+a = """
     A  
   A   A
-  A    A
- AAAAAAAA
- A      A
- A      A
- A      A
+ A    A
+AAAAAAAA
+A      A
+A      A
+A      A
  """
- N = """
+n = """
  N    N
  NN   N
  N  N N
@@ -31,3 +32,5 @@ A = """
  N    N
  """
  
+nickname = s + t + a + n
+print(nickname)
