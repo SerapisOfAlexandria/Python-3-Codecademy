@@ -1,6 +1,9 @@
+import random
+
 name = "Stan"
 question = "Will I be in a relationship with a girl?"
 answer = ""
+random_number = random.randint(1, 9)
 
 if random_number == 1:
   answer = "Yes - definetely"
